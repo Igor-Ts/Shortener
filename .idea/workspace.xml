@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8042b92a-4035-49b2-9668-a8f381248bf7" name="Changes" comment="Task 3 done. Implemented shortener class methods. Added task 4.">
-      <change afterPath="$PROJECT_DIR$/src/main/ExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Helper.java" afterDir="false" />
+    <list default="true" id="8042b92a-4035-49b2-9668-a8f381248bf7" name="Changes" comment="Task 4 done. Added help class where is string generator and console out. Added task 5.">
+      <change afterPath="$PROJECT_DIR$/src/main/strategy/HashMapStorageStrategy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Task.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +73,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679838950338</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Task 4 done. Added help class where is string generator and console out. Added task 5.">
+      <created>1679849478130</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1679849478130</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -93,6 +98,7 @@
     <MESSAGE value="Start Shorter project. Task 1 done. Created starting classes. Added task 2." />
     <MESSAGE value="Task 2 done. Strategy pattern, Added main storage interface. Added task 3." />
     <MESSAGE value="Task 3 done. Implemented shortener class methods. Added task 4." />
-    <option name="LAST_COMMIT_MESSAGE" value="Task 3 done. Implemented shortener class methods. Added task 4." />
+    <MESSAGE value="Task 4 done. Added help class where is string generator and console out. Added task 5." />
+    <option name="LAST_COMMIT_MESSAGE" value="Task 4 done. Added help class where is string generator and console out. Added task 5." />
   </component>
 </project>
