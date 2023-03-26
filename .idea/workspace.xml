@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8042b92a-4035-49b2-9668-a8f381248bf7" name="Changes" comment="Start Shorter project. Task 1 done. Created starting classes. Added task 2.">
-      <change afterPath="$PROJECT_DIR$/src/main/strategy/StorageStrategy.java" afterDir="false" />
+    <list default="true" id="8042b92a-4035-49b2-9668-a8f381248bf7" name="Changes" comment="Task 2 done. Strategy pattern, Added main storage interface. Added task 3.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Task.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Shortener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Shortener.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,12 +37,12 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -60,7 +59,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679764374407</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Task 2 done. Strategy pattern, Added main storage interface. Added task 3.">
+      <created>1679768961629</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1679768961629</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -76,6 +82,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Start Shorter project. Task 1 done. Created starting classes. Added task 2." />
-    <option name="LAST_COMMIT_MESSAGE" value="Start Shorter project. Task 1 done. Created starting classes. Added task 2." />
+    <MESSAGE value="Task 2 done. Strategy pattern, Added main storage interface. Added task 3." />
+    <option name="LAST_COMMIT_MESSAGE" value="Task 2 done. Strategy pattern, Added main storage interface. Added task 3." />
   </component>
 </project>
