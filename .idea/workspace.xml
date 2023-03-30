@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8042b92a-4035-49b2-9668-a8f381248bf7" name="Changes" comment="Task 7 done. Created new class Entry(this class similar Node class in HashMap) and overrides some methods. Added task 8.">
+    <list default="true" id="8042b92a-4035-49b2-9668-a8f381248bf7" name="Changes" comment="Task 8 done. Created new strategy. Added task 9.">
+      <change afterPath="$PROJECT_DIR$/src/main/strategy/FileBucket.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/strategy/OurHashMapStorageStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/strategy/OurHashMapStorageStrategy.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +114,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680029589029</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Task 8 done. Created new strategy. Added task 9.">
+      <created>1680114244765</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1680114244765</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -135,6 +142,7 @@
     <MESSAGE value="Task 4 done. Added help class where is string generator and console out. Added task 5." />
     <MESSAGE value="Task 6 done. Created test case where was tested created strategy in previous tasks. Added task 7." />
     <MESSAGE value="Task 7 done. Created new class Entry(this class similar Node class in HashMap) and overrides some methods. Added task 8." />
-    <option name="LAST_COMMIT_MESSAGE" value="Task 7 done. Created new class Entry(this class similar Node class in HashMap) and overrides some methods. Added task 8." />
+    <MESSAGE value="Task 8 done. Created new strategy. Added task 9." />
+    <option name="LAST_COMMIT_MESSAGE" value="Task 8 done. Created new strategy. Added task 9." />
   </component>
 </project>
