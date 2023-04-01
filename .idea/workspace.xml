@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8042b92a-4035-49b2-9668-a8f381248bf7" name="Changes" comment="Task 10 done. Implemented new file strategy. Added task 11.">
-      <change afterPath="$PROJECT_DIR$/src/main/strategy/OurHashBiMapStorageStrategy.java" afterDir="false" />
+    <list default="true" id="8042b92a-4035-49b2-9668-a8f381248bf7" name="Changes" comment="Task 11 done. Implemented new HashBiMap strategy. Added task 12.">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/commons_collections4_4_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/google_guava.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/strategy/DualHashBidiMapStorageStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/strategy/HashBiMapStorageStrategy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shortener.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Shortener.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Task.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Task.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/MainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/MainClass.java" afterDir="false" />
     </list>
@@ -39,12 +43,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "D:/QA/jarki/commons-collections4-4.4/commons-collections4-4.4.jar",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="MainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.MainClass" />
@@ -137,7 +150,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680352232301</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Task 11 done. Implemented new HashBiMap strategy. Added task 12.">
+      <created>1680355595357</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1680355595357</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -161,6 +181,7 @@
     <MESSAGE value="Task 8 done. Created new strategy. Added task 9." />
     <MESSAGE value="Task 9 done. Added new help class for new strategy. Added task 10." />
     <MESSAGE value="Task 10 done. Implemented new file strategy. Added task 11." />
-    <option name="LAST_COMMIT_MESSAGE" value="Task 10 done. Implemented new file strategy. Added task 11." />
+    <MESSAGE value="Task 11 done. Implemented new HashBiMap strategy. Added task 12." />
+    <option name="LAST_COMMIT_MESSAGE" value="Task 11 done. Implemented new HashBiMap strategy. Added task 12." />
   </component>
 </project>

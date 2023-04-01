@@ -14,6 +14,8 @@ public class MainClass {
         testStrategy(new OurHashMapStorageStrategy(),30000);
         testStrategy(new FileStorageStrategy(),100L);
         testStrategy(new OurHashBiMapStorageStrategy(),30000);
+        testStrategy(new HashBiMapStorageStrategy(),30000);
+        testStrategy(new DualHashBidiMapStorageStrategy(), 30000);
     }
 
     public static Set<Long> getIds(Shortener shortener, Set<String> strings) {      //return id set for given string set
