@@ -1,9 +1,6 @@
 package main;
 
-import main.strategy.FileStorageStrategy;
-import main.strategy.HashMapStorageStrategy;
-import main.strategy.OurHashMapStorageStrategy;
-import main.strategy.StorageStrategy;
+import main.strategy.*;
 
 import java.util.HashSet;
 import java.util.Iterator;
@@ -13,9 +10,10 @@ import java.util.stream.Collectors;
 public class MainClass {
 
     public static void main(String[] args) {
-        testStrategy(new HashMapStorageStrategy(),10000);
-        testStrategy(new OurHashMapStorageStrategy(),10000);
+        testStrategy(new HashMapStorageStrategy(),30000);
+        testStrategy(new OurHashMapStorageStrategy(),30000);
         testStrategy(new FileStorageStrategy(),100L);
+        testStrategy(new OurHashBiMapStorageStrategy(),30000);
     }
 
     public static Set<Long> getIds(Shortener shortener, Set<String> strings) {      //return id set for given string set
