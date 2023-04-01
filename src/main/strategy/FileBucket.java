@@ -25,13 +25,12 @@ public class FileBucket {
     }
     //return path file size
     public long getFileSize () {
-        long size = 0;
         try {
-            size = Files.size(path);
+            return Files.size(path);
         } catch (Exception e) {
             ExceptionHandler.log(e);
         }
-        return size;
+        return 0L;
     }
 
     // entry serialization
@@ -50,13 +49,12 @@ public class FileBucket {
         if (getFileSize() == 0) {
             return null;
         }
-        Entry entry = null;
         try(ObjectInputStream inputStream = new ObjectInputStream(Files.newInputStream(path))) {
-            entry = (Entry) inputStream.readObject();
+            return  (Entry) inputStream.readObject();
         } catch (Exception e) {
             ExceptionHandler.log(e);
         }
-        return entry;
+        return null;
     }
 
     public void remove() {

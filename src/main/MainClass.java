@@ -1,5 +1,6 @@
 package main;
 
+import main.strategy.FileStorageStrategy;
 import main.strategy.HashMapStorageStrategy;
 import main.strategy.OurHashMapStorageStrategy;
 import main.strategy.StorageStrategy;
@@ -14,6 +15,7 @@ public class MainClass {
     public static void main(String[] args) {
         testStrategy(new HashMapStorageStrategy(),10000);
         testStrategy(new OurHashMapStorageStrategy(),10000);
+        testStrategy(new FileStorageStrategy(),100L);
     }
 
     public static Set<Long> getIds(Shortener shortener, Set<String> strings) {      //return id set for given string set
