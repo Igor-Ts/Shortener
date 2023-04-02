@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8042b92a-4035-49b2-9668-a8f381248bf7" name="Changes" comment="Task 11 done. Implemented new HashBiMap strategy. Added task 12.">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/commons_collections4_4_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/google_guava.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/strategy/DualHashBidiMapStorageStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/strategy/HashBiMapStorageStrategy.java" afterDir="false" />
+    <list default="true" id="8042b92a-4035-49b2-9668-a8f381248bf7" name="Changes" comment="Task 12, 13 done. Implemented new BiMap strategy(guava) and BidiMap strategy(Apache). Added task 14.">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/junit_jupiter_engine.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/junit_platform_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/junit_vintage_engine.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/tests/FunctionalTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Shortener.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Shortener.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Task.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Task.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/MainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/MainClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/strategy/OurHashMapStorageStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/strategy/OurHashMapStorageStrategy.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,12 +53,12 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "last_opened_file_path": "D:/QA/jarki/commons-collections4-4.4/commons-collections4-4.4.jar",
-    "project.structure.last.edited": "Libraries",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.FunctionalTest">
     <configuration name="MainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.MainClass" />
       <module name="Shortener" />
@@ -72,8 +72,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FunctionalTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Shortener" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="main.tests" />
+      <option name="MAIN_CLASS_NAME" value="main.tests.FunctionalTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FunctionalTest" />
         <item itemvalue="Application.MainClass" />
       </list>
     </recent_temporary>
@@ -157,7 +173,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680355595357</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Task 12, 13 done. Implemented new BiMap strategy(guava) and BidiMap strategy(Apache). Added task 14.">
+      <created>1680373218743</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1680373218743</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -182,6 +205,18 @@
     <MESSAGE value="Task 9 done. Added new help class for new strategy. Added task 10." />
     <MESSAGE value="Task 10 done. Implemented new file strategy. Added task 11." />
     <MESSAGE value="Task 11 done. Implemented new HashBiMap strategy. Added task 12." />
-    <option name="LAST_COMMIT_MESSAGE" value="Task 11 done. Implemented new HashBiMap strategy. Added task 12." />
+    <MESSAGE value="Task 12, 13 done. Implemented new BiMap strategy(guava) and BidiMap strategy(Apache). Added task 14." />
+    <option name="LAST_COMMIT_MESSAGE" value="Task 12, 13 done. Implemented new BiMap strategy(guava) and BidiMap strategy(Apache). Added task 14." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/strategy/OurHashMapStorageStrategy.java</url>
+          <line>108</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

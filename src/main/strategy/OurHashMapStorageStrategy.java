@@ -77,12 +77,12 @@ public class OurHashMapStorageStrategy implements StorageStrategy {
 
     @Override
     public boolean containsValue(String value) {
-        if (table.length == 0) {
+        if (table != null && size > 0) {
             return false;
         }
 
-        for (int i = 0; i < table.length ; i++)
-            for (Entry e = table[i] ; e != null ; e = e.next)
+        for (Entry bucket: table)
+            for (Entry e = bucket ; e != null ; e = e.next)
                 if (value.equals(e.value))
                     return true;
         return false;
